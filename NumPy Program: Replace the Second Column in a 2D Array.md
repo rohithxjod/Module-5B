@@ -11,9 +11,16 @@ To write a **NumPy** program that deletes the second column from a given 2D arra
 5. **Display Result**: Print the updated array with the replaced column.
 
 ## 🧾 Program
-
-Add code here
-
+import numpy as np
+a=np.array(eval(input()))
+print("Given array")
+print(end=" ")
+print(a)
+print()
+print(np.sort(a,axis=0))
 ## Output
+![image](https://github.com/user-attachments/assets/18acb486-5194-4244-9967-e75c208e02a6)
 
 ## Result
+Thus the python program for sorting each column in numpy has been implemented and executed
+successfully.
